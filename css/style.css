@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&display=swap');
+
+/* header part start */
+.header-bg{
+    background-color: rgb(255, 251, 240);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+ul li {
+
+    padding: 20px;
+    font-weight: bold;
+   
+}
+ul li a{
+    color: rgba(32, 31, 31, 0.733);
+}
+.banner-text-title,.product-title{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(250, 190, 76);
+    font-size: 60px;
+}
+.single-text{
+    color: rgb(62, 62, 62);
+    font-size: 27px;
+}
+.two{
+    color:rgb(32, 43, 75);
+}
+.button-style {
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 25px;
+    font-size: 15px;
+    background-image:linear-gradient(10deg,rgb(250, 128, 76),rgb(243, 73, 0)) ;
+}
+.price{
+    font-size: 30px;
+    color:rgb(243, 73, 0) ;
+    font-weight: bolder;
+}
+div a img{
+    height: 40px;
+}
+
+div img{
+    height: 450px;
+}
+/* end header part */
+
+
+
+.product-title{
+    color:rgb(54, 57, 88);
+    font-size: 50px;
+}
+.image-bg img{
+    background-color: rgb(241, 241, 241);
+    border: 0;
+    border-radius: 20px;
+    padding: 35px 65px;
+    width: 325px; 
+    height: 325px;
+}
+
+.card.product-item{
+    border: 0;
+}
+.price-button{
+    margin-left: 25px;
+}
+.card-margin{
+    padding-right: 10px;
+}
+.card-body-design{
+    width: 350px;
+}
+.card-footer.penguin-card-footer{
+    background-color: white;
+    border: 0px;
+    width: 350px;
+
+}
+/* footer-area-start */
+.footer-area{
+    margin-top: 200px;
+}
+.footer-image img{
+    width: 100%;
+}
+
+.footer-card-image img{
+    width: 50%;
+    height: 55%;
+    margin: 25px 45px;
+}
+.text-align{
+    text-align: left;
+}
+@media (max-width: 576px) {
+    .text-align{
+        text-align: center;
+    }
+    .footer-card-image img{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+ }
+
+.card.footer-card{
+    border: 0;
+}
+
+.card.footer-bg{
+    background-color: rgb(245, 240, 228);
+    border: 0;
+    font-size: large;
+    color:rgb(243, 73, 0) ;
+    font-weight: bold;
+
+    
+}
+/* end footer part */
